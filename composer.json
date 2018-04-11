@@ -1,0 +1,14 @@
+{
+    "name": "gahlawat/csv",
+    "description": "Reading and writing to csv made damn easy!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jivesh Gahlawat",
+            "email": "jiveshsg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
