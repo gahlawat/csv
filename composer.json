@@ -3,6 +3,9 @@
     "description": "Reading and writing to csv made damn easy!",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "csv"
+    ],
     "authors": [
         {
             "name": "Jivesh Gahlawat",
@@ -10,10 +13,23 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "Gahlawat\\Csv\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gahlawat\\Csv\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     }
 }
