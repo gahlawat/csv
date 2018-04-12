@@ -6,3 +6,10 @@ php:
   - nightly
 
 sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+install:
+  - composer install --no-interaction --no-suggest
